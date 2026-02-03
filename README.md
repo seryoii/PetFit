@@ -1,54 +1,7 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+![JECT3팀_발표자료-이미지-0](https://github.com/user-attachments/assets/0949138d-9ce7-4a70-bab0-7a8929edba86)
+![JECT3팀_발표자료-이미지-6](https://github.com/user-attachments/assets/b9d0d2f1-af4a-4d92-9e70-046119b5b9f6)
+![JECT3팀_발표자료-이미지-7](https://github.com/user-attachments/assets/0c933b84-4ef8-4c91-8b22-d877b91c1d68)
+![JECT3팀_발표자료-이미지-9](https://github.com/user-attachments/assets/3cd52e0e-8416-4a0e-93a5-b9398fe579c8)
+![JECT3팀_발표자료-이미지-10](https://github.com/user-attachments/assets/c7d3c8c8-5bf6-4e94-93d0-739795e8cef6)
+![JECT3팀_발표자료-이미지-11](https://github.com/user-attachments/assets/a09b3acf-32b3-4b1d-be27-5faccf096e3d)
+![JECT3팀_발표자료-이미지-12](https://github.com/user-attachments/assets/5f916bd5-5114-4d8c-b106-45dbbebb4d29)
